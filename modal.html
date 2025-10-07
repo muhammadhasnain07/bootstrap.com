@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary mt-5 " style="margin-left: 100px;" data-bs-toggle="modal" data-bs-target="#hasnain">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="hasnain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+        <div class="row">
+            <div class="col-8 mx-auto">
+                <label for="" class="form-label mt-2">Name</label>
+                <input type="text" placeholder="Enter Your Name" class="form-control">
+                <label for="" class="form-label mt-2">Email</label>
+                <input type="email" placeholder="Enter Your Email" class="form-control">
+                <label for="" class="form-label mt-2">password</label>
+                <input type="password" placeholder="Enter Your password " class="form-control">
+                <label for="" class="form-label mt-2">Books</label>
+                <select class="form-control">
+                    <option value="" readonly>Select Your Course </option>
+                    <option value="sarf">Assas Us Sarf</option>
+                    <option value="Nahw">Assas Us Nahw</option>
+                    <option value="mantiq">Nisab Ul Mantiq</option>
+                </select>
+                <label for="" class="form-label mt-2">Upload Image</label>
+                <input type="file" class="form-control">
+                <button type="submit" class="btn btn-success mt-2">Submit</button>
+            </div>
+        </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="./bootstrap/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"
+     src="./bootstrap/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
